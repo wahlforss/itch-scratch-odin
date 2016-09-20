@@ -7,25 +7,23 @@ body {
 	font-family: helvetica;
 }
 h1 {
-	color:#ffdcdc;
+	color:white;
+	margin: 20px auto;
 }
 
 #grid > div {
 	width: 30px;
 	height: 30px;
-	background-color: rgba(214, 214, 214,0.8);
+	background-color: white;
 	float:left;
-	outline-color: rgba(100, 100, 100,0.2);
-	outline-width: 0.5px;
-	outline-style: solid;
-	box-shadow: 3px 4px 10px #a7a7a7;
-	box-shadow: inset 0px 0px 	10px 1px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 0px 	1px 1px rgba(0,0,0,0.5);
 }
 
 #grid {
-	height: 496px;
-	width: 496px;
-	margin: 50px auto;
+	height: 480px;
+	width: 480px;
+	margin: 30px auto;
+	box-shadow: 10px 7px 50px rgba(0,0,0,0.5);
 }
 
 #test {
@@ -33,4 +31,21 @@ h1 {
 	height: 50px;
 	background-color: red;
 	margin: 20px auto;
+}
+
+.button {
+	font-family: helvetica;
+	margin: 30px auto;
+	display: block;
+	background-color: white;
+	box-shadow: 10px 7px 50px rgba(0,0,0,0.5);
+	width: 180px;
+	padding: 5px;
+	text-align: center;
+	line-height: 2em;
+	color:#ff6161;
+}
+.button:hover {
+	background-color: #ff6161;
+	color:white;
 }
