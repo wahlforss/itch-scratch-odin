@@ -1,0 +1,36 @@
+body {
+	background-color: #ff6161;
+}
+.wrapper {
+	margin:0 auto;
+	width: 600px;
+	font-family: helvetica;
+}
+h1 {
+	color:#ffdcdc;
+}
+
+#grid > div {
+	width: 30px;
+	height: 30px;
+	background-color: rgba(214, 214, 214,0.8);
+	float:left;
+	outline-color: rgba(100, 100, 100,0.2);
+	outline-width: 0.5px;
+	outline-style: solid;
+	box-shadow: 3px 4px 10px #a7a7a7;
+	box-shadow: inset 0px 0px 	10px 1px rgba(0,0,0,0.5);
+}
+
+#grid {
+	height: 496px;
+	width: 496px;
+	margin: 50px auto;
+}
+
+#test {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	margin: 20px auto;
+}
